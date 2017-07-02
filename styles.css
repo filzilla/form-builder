@@ -1,0 +1,75 @@
+h1{
+background-color: #214887;
+color: white;
+width: 550px;
+padding: 50px;
+margin-left: 400px;
+margin-right: auto;
+margin-bottom: 0px;
+border-top:  2px solid lightgray;
+border-left:  2px solid lightgray;
+border-right:  2px solid lightgray;
+text-align: center;
+}
+
+.sheet-container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+flex-basis: 100%;
+}
+
+#form-container{
+  margin-left: 400px;
+  width: 650px;
+  height: 600px;
+  border: 2px solid lightgray;
+}
+
+.option{
+  margin-left: 10px;
+  margin-top: 15px;
+  border: 2px solid lightgray;
+  padding-left: 40px;
+  height: 20px;;
+
+  margin-bottom: 20px;
+  width: 560px;
+  border-radius: 3px;
+  font-size: .75em;
+}
+
+.icon{
+  display:block;
+}
+
+.footer{
+    width: 650px;
+    height: 112px;
+    background-color: #6BADEF;
+
+}
+.submit{
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  background-color: #214887;
+  color: white;
+  font-size: 1.0em;
+  align-items:  center;
+}
+
+
+<i class="fa fa-user-circle" aria-hidden="true"></i>  /*user*/
+<i class="fa fa-globe" aria-hidden="true"></i> /* globe*/
+
+<i class="fa fa-phone" aria-hidden="true"></i>  /* phone*/
+<i class="fa fa-mobile" aria-hidden="true"></i> /* mobile*/
+
+<i class="fa fa-envelope" aria-hidden="true"></i> /* envelope */
+
+<i class="fa fa-comments" aria-hidden="true"></i>  /* comments */
